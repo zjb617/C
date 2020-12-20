@@ -1,0 +1,10 @@
+//for_cube.c -- 使用for循环创建一个立方表
+#include <stdio.h>
+int main(void)
+{
+    int num;
+    printf("    n   n cubed\n");
+    for (num = 1; num <= 6; num++)  //初始化(只执行一次);条件;合理的表达式
+        printf("%5d %9d\n", num, num*num*num);
+    return 0;
+}
